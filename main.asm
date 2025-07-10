@@ -84,3 +84,5 @@ _start:
     mov rax, 60
     xor rdi, rdi
     syscall
+
+; nasm -f elf64 hello.asm -o hello.o && ld hello.o -o hello && ./hello
